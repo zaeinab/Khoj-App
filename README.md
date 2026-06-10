@@ -74,3 +74,6 @@ Pakistan contains thousands of years of human civilization layers (including Moh
 and beautiful Mughal/Sikh/Colonial monuments) that suffer from a lack of digital accessibility and preservation metrics. 
 Khoj bridges this generational divide, putting the power of an expert historian and digital conservation platform directly
 inside the pockets of global and local travelers.
+
+## 📽️ Demo Notes
+⚠️ *The demo video may contain a minor visual repetition artifact resulting from extensive training and testing cycles. App performance and features remain fully stable.*
